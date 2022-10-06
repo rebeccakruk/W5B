@@ -1,0 +1,27 @@
+header {
+    display: grid;
+    justify-items: center;
+
+    >img {
+        height: 150px;
+    }
+
+    >nav {
+        >a {
+            background-color: aquamarine;
+            color: burlywood;
+            padding: 15px 20px;
+            border: 2px solid black;
+            text-align: center;
+            text-decoration: none;
+
+            &:visited {
+                color: rebeccapurple;
+            }
+
+            &:hover {
+                color: dodgerblue;
+            }
+        }
+    }
+}

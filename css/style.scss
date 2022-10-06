@@ -1,0 +1,25 @@
+@use "header";
+@use "footer";
+@use "general";
+@import "variables";
+
+section {
+    >p {
+        &:active{
+            font-size: 50px;
+        }
+    }
+    >img {
+        height: 350px;
+    }
+}
+
+article {
+    >h2+p{
+        font-size: 25px;
+        color: fuchsia;
+        &:active{
+            font-size: 50px;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+header {
+  display: grid;
+  justify-items: center;
+}
+header > img {
+  height: 150px;
+}
+header > nav > a {
+  background-color: aquamarine;
+  color: burlywood;
+  padding: 15px 20px;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+}
+header > nav > a:visited {
+  color: rebeccapurple;
+}
+header > nav > a:hover {
+  color: dodgerblue;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer > div > a {
+  background-color: azure;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px;
+  margin: 0 10px;
+}
+footer > div > a:hover {
+  background-color: springgreen;
+}
+
+html {
+  background-color: rgb(191, 246, 166);
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(133, 212, 104);
+  text-align: center;
+  cursor: pointer;
+}
+
+section > p:active {
+  font-size: 50px;
+}
+section > img {
+  height: 350px;
+}
+
+article > h2 + p {
+  font-size: 25px;
+  color: fuchsia;
+}
+article > h2 + p:active {
+  font-size: 50px;
+}/*# sourceMappingURL=style.css.map */
